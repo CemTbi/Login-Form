@@ -16,13 +16,11 @@
 .login-app {
     width: 100%;
     max-width: 440px;
-    background: #fff;
     margin: 200px auto 20px;
     padding: 30px 30px 40px;
     border-radius: 10px;
     border: 1px solid #fff;
-    background: transparent;
-    backdrop-filter: blur(100px);
+    backdrop-filter: blur(10px);
 }
 
 .login-app h2 {
@@ -43,7 +41,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
     border: 1px solid #fff;
     border-radius: 30px;
     padding-left: 10px;
